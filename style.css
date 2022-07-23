@@ -14,7 +14,7 @@ li {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
     background: #fff;
     border: 2px solid #f0efe4;
@@ -52,6 +52,12 @@ li {
     color: #fff;
 }
 
+.btn:hover {
+    color: orange;
+    background: #fff;
+    border: 1px solid orange;
+    font-weight: 700;
+}
 .hero {
     display: flex;
     height: 100vh;
