@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Cantora One', sans-serif;
+    position: relative;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1em;
+    background: #fff;
+}
+
+.header,
+.nav,
+.menu,
+.hero {
+    display: flex;
+}
+
+.header,
+.menu-item {
+    align-items: center;
+}
+
+.header {
+    justify-content: space-around;
+    width: 100%;
+    box-shadow: 0 0 10px gray;
+    position: fixed;
+    z-index: 2;
+    background: #fff;
+}
+
+.logo {
+    margin: 20px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.nav,
+.menu {
+    justify-content: center;
+}
+
+.menu-item {
+    padding: 20px;
+}
+
+.btn {
+    padding: 10px;
+    background: orange;
+    border-radius: 20px;
+    align-self: center;
+    color: #fff;
+}
+
+.btn:hover {
+    color: orange;
+    background: #fff;
+    border: 1px solid orange;
+    font-weight: 700;
+}
+
+.hero {
+    background-image: url("https://images.unsplash.com/photo-1623930376395-0f3ad22cfac2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+    background-size: cover;
+    height: 70vh;
+    justify-content: center;
+    /* padding-top: 3em ; */
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.hero-title {
+    font-size: 50px;
+    text-shadow: 0 0 15px #000;
+    color: antiquewhite;
+}
+
+.hero-img {
+    position: relative;
+}
+
+.img {
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.about-us {
+    margin-top: 4em;
+}
+
+.title {
+    font-size: 25px;
+    margin-bottom: 0px;
+    letter-spacing: 0.75px;
+}
+
+.underline {
+    width: 350px;
+    height: 50px;
+    object-fit: cover;
+    margin-bottom: 40px;
+}
+
+.subtitle {
+    line-height: 1.5;
+    font-family: 'Spectral', serif;
+    margin-top: 10px;
+    text-align: start;
+}
+.list-item
+ {
+    display: grid;
+    grid-template-columns: 30% auto;
+    gap: 15px;
+    text-align: start;
+ }
+
+.footer{
+    background-color: #e6e4e4;
+    color:#5A5A5A;
+    padding: 2em;
+}
+.footer-subtitle {
+    line-height: 1.8;
+}
